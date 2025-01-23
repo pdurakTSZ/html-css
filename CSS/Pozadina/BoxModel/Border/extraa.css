@@ -1,0 +1,15 @@
+.jedan{
+    font-size: 10px;
+    border: 1px solid red;
+    margin-left: 100px;
+}
+.dva{
+    font-size: 10px;
+    border: 1px dashed green;
+    margin-top: 50px;
+}
+.tri{
+    font-size: 10px;
+    border: 1px solid blue;
+    margin-bottom: 50px;
+}
