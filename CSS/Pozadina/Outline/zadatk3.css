@@ -1,0 +1,9 @@
+.outlineP1{
+    outline: thick red;
+}
+.outlineP2{
+    outline: 3px green;
+}
+p{
+    border: 1px black;
+}

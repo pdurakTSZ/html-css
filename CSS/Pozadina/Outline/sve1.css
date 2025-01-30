@@ -1,0 +1,8 @@
+.prvaP{
+    width: 500px;
+    height: 300px;
+    padding: 10px 40px;
+    margin: 20px 25px;
+    border: 10px aqua dashed;
+    outline: gold dotted;
+}
