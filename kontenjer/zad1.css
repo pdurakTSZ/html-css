@@ -1,0 +1,22 @@
+ol{
+    display: flex;
+    list-style: none;
+    background-color: turquoise;
+    border: 1px solid black;
+}
+li{
+    padding: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    color: hotpink;
+}
+li:hover{
+    background-color: lightcyan;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+}
+a{
+    text-decoration: none;
+}
