@@ -1,0 +1,38 @@
+ol{
+    display: flex;
+    list-style: none;
+    background-color: lightpink;
+    border: 1px solid black;
+}
+li{
+    padding: 10px;
+    font-size: 20px;
+    font-family: cursive;
+    color: hotpink;
+}
+a:hover{
+    background-color: lightpink;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+}
+a{
+    text-decoration: none;
+}
+.glavniNaslov{
+    font-size: 100px;
+    color: lightpink;
+    display: flex;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+body {
+    background-image: url('image.png');
+    background-size: cover;
+    background-position: center;
+}
