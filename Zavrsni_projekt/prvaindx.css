@@ -6,7 +6,7 @@ ol{
 }
 li{
     padding: 10px;
-    font-size: 20px;
+    font-size: 1.5em;
     font-family: cursive;
     color: hotpink;
 }
@@ -14,14 +14,14 @@ a:hover{
     background-color: lightpink;
 }
 .logo{
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
 }
 a{
     text-decoration: none;
 }
 .glavniNaslov{
-    font-size: 100px;
+    font-size: 5em;
     color: lightpink;
     display: flex;
 }
@@ -35,4 +35,51 @@ body {
     background-image: url('image.png');
     background-size: cover;
     background-position: center;
+}
+main {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.opis, .galerija {
+    margin-bottom: 50px;
+}
+
+.opis h2, .galerija h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.opis p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.galerija .slike {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.galerija img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.galerija img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+h2{
+    color: lightpink;
+}
+h3{
+    color: lightpink;
+    font-size: 1.5em;
 }
