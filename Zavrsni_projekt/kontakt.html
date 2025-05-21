@@ -1,11 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hr">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>LOVE_NAILS_SALON</title>
     <link rel="stylesheet" href="kontakt.css">
+    <link rel="stylesheet" href="ŠALABAHTER.css">
 </head>
 <body>
+
+<header class="redci x-os-centar">
+    <ol class="x-os-centar y-os-centar">
+        <li><img class="logo" src="slike/logo123123123.png" alt="ne dela sika"></li>
+        <li><a href="index.html">POČETNA</a></li>
+        <li><a href="lokacija.html">LOKACIJA</a></li>
+        <li><a href="galerija.html">GALERIJA</a></li>
+        <li><a href="usluge.html">USLUGE</a></li>
+        <li><a href="kontakt.html">KONTAKT</a></li>
+    </ol>
+</header>
+
+<main>
+    <section class="contact-form">
+        <h2>Prijavite se za Termin</h2>
+        <form>
+            <label for="ime">Ime:</label>
+            <input type="text" id="ime" name="ime" required>
+
+            <label for="prezime">Prezime:</label>
+            <input type="text" id="prezime" name="prezime" required>
+
+            <label for="usluga">Odaberite uslugu:</label>
+            <select id="usluga" name="usluga" required>
+                <option value="">-- Odaberite --</option>
+                <option value="maderoterapija">Maderoterapija</option>
+                <option value="pedikura">Pedikura</option>
+                <option value="manikura">Manikura</option>
+                <option value="uljepšavanje">Uljepšavanje noktiju</option>
+            </select>
+
+            <label for="datum">Odaberite datum:</label>
+            <input type="date" id="datum" name="datum" required>
+
+            <label for="poruka">Poruka (opcionalno):</label>
+            <textarea id="poruka" name="poruka"></textarea>
+
+            <button type="button" onclick="alert('Hvala na prijavi!')">Pošalji</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p class="futer">&copy; 2025 LOVE_NAILS_SALON.</p>
+</footer>
 
 </body>
 </html>

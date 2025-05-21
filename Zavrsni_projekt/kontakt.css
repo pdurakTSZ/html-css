@@ -1,0 +1,91 @@
+ol{
+    display: flex;
+    list-style: none;
+    background-color: lightpink;
+    border: 1px solid black;
+}
+li{
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: cursive;
+    color: hotpink;
+}
+a:hover{
+    background-color: lightpink;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+a{
+    text-decoration: none;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+body {
+    background-image: url('image.png');
+    background-size: cover;
+    background-position: center;
+}
+.contact-form {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: #8e054d;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #8e054d;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #6a0037;
+}
+.futer{
+    color: hotpink;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffcad4;
+    color: #6a0037;
+    margin-top: 30px;
+}
